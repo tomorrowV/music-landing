@@ -360,7 +360,7 @@ body {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url("/images/bg-image.jpg");
+  background: url("../images/bg-image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
