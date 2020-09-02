@@ -360,7 +360,7 @@ body {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url("images/bg-image.jpg");
+  background: url("../images/bg-image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1000,7 +1000,7 @@ body {
 }
 
 .hand-picked .hand-picked__expamples .hand-picked__first-block {
-  background-image: url("/images/hand-picked-img2.png");
+  background-image: url("../images/hand-picked-img2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -1013,7 +1013,7 @@ body {
 }
 
 .hand-picked .hand-picked__expamples .hand-picked__second-block {
-  background-image: url("/images/hand-picked-img1.png");
+  background-image: url("../images/hand-picked-img1.png");
   background-size: cover;
   background-position: center center;
   border-radius: 20px;
