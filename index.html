@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="https://kit.fontawesome.com/e06e1b9c3f.js" crossorigin="anonymous"></script>
+
+  <title>Music-landing</title>
+</head>
+<body id="body" class="body">
+    
+
+
+    <!-- First section! -->
+
+
+   <div class="wrapper" id="wrapper">
+     <div class="burger-menu" id="burger-menu">
+       <div class="line line-1"></div>
+       <div class="line line-2"></div>
+       <div class="line line-3"></div>
+       <span>Close</span>
+     </div>
+    <header class="header">
+      <div class="header__wrapper">
+      <div class="header__banner">
+        <h1>Discover, search, and play any song featuring voice control.</h1>
+        <div class="header__container">
+        <div class="header__container-button">
+          <button class="header__link"><span>Try it free</span></button>
+        </div>
+        <div class="app__links">
+        <a class="header__link-to-appstore link" href="#"><img class="header__link-to-img" src="images/appstore.svg" alt="appstore"></a>
+        <a class="header__link-to-googleplay link" href="#"><img class="header__link-to-img" src="images/googleplay.svg" alt="googleplay"></a>
+        </div>
+        </div>
+      </div>
+      </div>
+    </header>
+
+      <!-- End of first section! -->
+
+
+    <!-- Second section! -->
+
+  <section class="sidebar" id="sidebar">
+    <ul class="menu">
+      <li class="menu__item">
+        <a href="#" class="menu__link link__about" data-content="Contact">Contact</a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link link__about" data-content="Plans">Plans</a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link link__about" data-content="Blog">Blog</a>
+      </li>
+      <li class="menu__item">
+        <button id="sign-in" class="menu__link btn-sign_in" >Sign in</button>
+      </li>
+      <li class="menu__item">
+        <button  id="sign-up" class="menu__link btn-sign_up">Sign up</button>
+      </li>
+    </ul>
+  </section>
+      <!-- End of second section! -->
+
+
+
+
+    <!-- Button settings section! -->
+
+
+<!-- SIGN IN -->
+
+<div id="sign-in-modal" class="" style="z-index: 12">
+  <a id="close-modal">&times;<a>
+  <h2>Sign In</h2>
+  <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/user-male-icon.png" alt="profile-image" width="200" />
+  <form>
+    <input name="email" type="email" id="email" placeholder="Email address" required="true" autocomplete="on"/>
+    <input name="password "type="password" id="password" placeholder="Password" required="true" autocomplete="on"/>
+    <button type="submit" id="submit">Sign In</button>
+  </form>
+  <button id="password-reveal"></button>
+</div>
+
+
+  <!-- End of button settings section! -->
+
+
+  <!-- Third section! -->
+
+
+
+<div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__item">
+        <div style="height: 180px; background: #293942;"><img src="images/playstation.png" alt="PlayStation"></div>
+      </div>
+      <div class="slider__item">
+        <div style="height: 180px; background: #293942"><img src="images/BlackBerry.png" alt="BlackBerry"></div>
+      </div>
+      <div class="slider__item">
+        <div style="height: 180px; background: #293942;"><img src="images/redbull.png" alt="RedBull"></div>
+      </div>
+      <div class="slider__item">
+        <div style="height: 180px; background: #293942;"><img src="images/Tiktok.png" alt="TikTok"></div>
+      </div>
+      <div class="slider__item">
+        <div style="height: 180px; background: #293942;"><img src="images/SENNHEISER.png" alt="Sennheiser"></div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+  </div>
+
+  <!-- End of Third section! -->
+
+ 
+
+ <!-- Fourth section! -->
+
+<section class="the-music-you-love">
+  <div class="content">
+    <div class="group-of-singers">
+      <div class="group__block" style="background-image: url('images/artist-1.png')"></div>
+      <div class="group__block" style="background-image: url('images/artist-2.png')"></div>
+      <div class="group__block" style="background-image: url('images/artist-3.png')"></div>
+      <div class="group__block" style="background-image: url('images/artist-4.png')"></div>
+      <div class="group__block" style="background-image: url('images/artist-5.png')"></div>
+      <div class="group__block" style="background-image: url('images/artist-6.png')"></div>
+      </div>
+        <div class="group__text">
+          <h1>The music you love</h1>
+          <p>With over 60 million tracks and tons of exclusive interviews and videos, TIDAL is here to bring you closer to the artists you listen to.</p>
+          <a href="#" class="group__link same__links">More Featured Content</a>
+        </div>
+    
+  </div>
+</section>
+
+
+ <!--End of Fourth section! -->
+
+<!-- Start of fifth section! -->
+
+
+<section class="hand-picked">
+  <div class="content">
+    <div class="hand-picked__text">
+      <h1>Hand-picked playlists</h1>
+      <p>Stream guest playlists curated by the artists you love. Also, check out our original playlists hand-picked by our team of experts.</p>
+      <a href="#">Discover Radiohead</a>
+    </div>
+    <div class="hand-picked__expamples">
+      <class class="hand-picked__first-block"></class>
+      <class class="hand-picked__second-block"></class>
+    </div>
+  </div>
+</section>
+
+
+<!-- End of fifth section! -->
+
+
+<!-- Start of sixth section! -->
+
+<section class="about">
+  <div class="content">
+    <h1>Why Radiohead?</h1>
+        <div class="about__accordion">
+          <button class="accordion">A world of music in your pocket.</button>
+    <div class="about__panel">
+      <p>Find new loves and old favourites from over 56 million tracks.</p>
+    </div>
+
+    <button class="accordion">Craft your collection.</button>
+    <div class="about__panel">
+      <p>Create playlists from millions of tracks and take them with you wherever you go.</p>
+    </div>
+
+    <button class="accordion">No WiFi? No problem.</button>
+    <div class="about__panel">
+      <p>With Deezer Premium, you don't need to be connected to enjoy your favourite tracks.</p>
+    </div>
+    <button class="accordion">Made for you.</button>
+    <div class="about__panel">
+      <p>Flow gets to know what you like and what you don't. Discover your personal soundtrack.</p>
+    </div>
+        </div>
+  </div>
+</section>
+
+<!-- End of sixth section! -->
+
+
+<!-- Start of sevethn section! -->
+
+<footer class="footer">
+  <div class="content">
+    <div class="footer__first-block">
+      <img src="images/logo1.png" alt="logo">
+      <p>Radiohead is the first global music streaming service with high fidelity sound, hi-def video quality, along with expertly curated playlists and original content making it a trusted source for music and culture.</p>
+    </div>
+    <div class="footer__second-block">
+      <ul>
+        <li>Get started</li>
+        <li><a href="#">Get Started</a></li>
+        <li><a href="#">Playlist Import</a></li>
+        <li><a href="#">Supported Devices</a></li>
+        <li><a href="#">Get Support</a></li>
+      </ul>
+      <ul>
+        <li>Discover</li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Magazine Discover</a></li>
+      </ul>
+      <ul>
+        <li>Account</li>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Redeem Voucher</a></li>
+        <li><a href="#">Redeem Giftcard</a></li>
+        <li><a href="#">Manage Account</a></li>
+        <li><a href="#">Store</a></li>
+      </ul>
+      <ul>
+        <li>Company</li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- End of seventh section -->
+
+
+
+
+
+<div class="contacts">
+  <div class="content">
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-telegram"></i>
+    <i class="fab fa-twitter"></i>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+  <script src="js/index.js"></script>
+
+
+  
+</body>
+</html>
